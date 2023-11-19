@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins",sans-serif;
+}
+body{
+    background-color: #f2f2f2;
+    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    cursor: pointer;
+}
+
+.logo {
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.list li {
+    margin-right: 50px;
+  
+}
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.homepage {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.homepage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    background-position: center 65%;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(80%);
+    z-index: -1;
+}
+
+.content{
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 3;
+    
+    text-align: center;
+   
+}
+.info1{
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    
+    
+}
+.info1 h1{
+    
+    font-size: 60px;
+    /* margin-top: 50px; */
+    
+   
+}
+.info1 p{
+    
+    font-size: 20px;
+    /* line-height: 12px; */
+    
+}
+.info1 p1{
+    font-size: 20px;
+    /* line-height: 12px; */
+    
+    
+}
+.info1 a{
+    text-decoration: none;
+    color:black;
+    padding: 12px 35px;
+    background-color: #fff;
+    border-radius: 5px;   
+}
+.solo{
+    margin-top: 6%;
+}
+.info1 a:hover{
+    background-color:transparent;
+    border: 2px solid white;
+    color: white;
+}
+.service{
+    width: 82%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-bottom: 10px;
+    padding-top: 50px;
+    
+    
+}
+.top{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.top h1{
+font-size: 32px;
+font-weight:800;
+}
+.top p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.cardmain{
+    /* width: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    width: 350px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+.cardimg img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+.cardDes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    padding: 20px 10px;
+}
+.cardDes p{
+   text-align: center;
+    padding: 10px ;
+}
+.aboutUs{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    
+}
+.top1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+.top1 h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+.top1 p{
+    font-size: 17px;
+}
+.contains{
+    /* line-height: 25px; */
+    margin-top: 30px;
+}
+.contains h2{
+    font-size: 18px;
+    font-weight:800;
+    
+}
+.contains p{
+    font-size: 17px;
+    margin-top: 15px;
+}
+.contains ul{
+    margin-top: 15px;
+}
+.contains li{
+    font-size: 17.5px;
+    list-style-position: inside ;
+}
+.Contact{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.allcontact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center; */
+}
+.logoInfo{
+    display: flex;
+    flex-direction: column;
+    
+    color: #5a5656;
+    font-size: 17px;
+    
+}
+.logoInfo i{
+    padding-right: 10px;
+}
+.logoInfo p{
+    padding-bottom: 12px    ;
+}
+.form1 {
+   
+    /* border: 1px solid black; */
+    width: 43%;
+    margin-bottom: 50px;
+    
+    
+}
+.form1 form{
+    display: flex ;
+    flex-direction: column;   
+    
+}
+.form1 form input,textarea{
+    padding: 13px 10px;
+    margin-bottom: 23px;
+    font-size: 17px;
+
+}
+.form1 form button{
+    padding: 10px 1px;
+    width: 30%;
+    font-size: 17px;
+    background-color: #333;
+    color: white;
+     border-radius: 5px;
+     border: none;
+}
